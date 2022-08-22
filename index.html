@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maksym Fadeev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a class="menu-item" href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a class="menu-item" href="#education" onclick="toggleMenu()">Education</a></li>
+            <li><a class="menu-item" href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a class="menu-item" href="#work" onclick="toggleMenu()">Work</a></li>
+        </ul>
+    </div>
+
+    <section class="banner" id="home">
+        <div class="imgSideBar">
+            <img src="img/max.jpg" alt="#">
+        </div>
+        <div class="content">
+            <div>
+                <h4><span>Hello</span>, I'm</h4>
+                <h2>Maksym Fadeev</h2>
+                <h4>I'm a Front End Developer</h4>
+            </div>
+            <ul class="sci">
+                <div class="sci-title">Contact me:</div>
+                <div class="sci__row">
+                    <li><a href="tel:380679091028" class="fa fa-phone fa-2x"></a></li>
+                    <li><a href="https://www.facebook.com/max.fadeev.756" class="fa fa-facebook fa-2x" target="_blank"></a></li>
+                    <li><a href="#" class="fa fa-linkedin fa-2x"></a></li>
+                    <li><a href="molit:marsiknamasrse@gmail.com" class="fa fa-google fa-2x"></a></li>
+                    <li><a href="tel:380679091028" class="fa fa-telegram fa-2x"></a></li>
+                </div>
+            </ul>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="title">
+            <h2>Education</h2>
+        </div>
+        <div class="education__content">
+            <div class="education__card">
+                <span class="education__img fa fa-university fa-4x"></span>
+                <h2 class="education__title">State University of<br>
+                    Telecommunications</h2>
+                <p>Stydent</p>
+                <p>Specialty: Software engineering</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="title white">
+            <h2>Skills</h2>
+        </div>
+        <div class="about-me__info-skills">
+            <ul class="about-me__info-skills__block">
+                <li class="about-me__info-skills__block-item html-css">HTML/CSS</li>
+                <li class="about-me__info-skills__block-item js">JS></li>
+                <li class="about-me__info-skills__block-item git">Git</li>
+                <li class="about-me__info-skills__block-item bem">BEM</li>
+                <li class="about-me__info-skills__block-item scss">SASS/SCSS</li>
+                <li class="about-me__info-skills__block-item figma">Figma</li>
+                <li class="about-me__info-skills__block-item bootstrap">Bootstrap</li>
+                <li class="about-me__info-skills__block-item jquery">jQuery</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="title">
+            <h2>Work</h2>
+        </div>
+        <div class="work__content">
+            <div class="work__card web">
+                <div class="work__img">
+                    <img class="portfolio__img" src="img/web.svg" alt="#">
+                </div>
+                <div class="work__text">
+                    <h4>Project 1</h4>
+                </div>
+            </div>
+            <div class="work__card game">
+                <div class="work__img">
+                    <img class="portfolio__img" src="img/gamecity.svg" alt="#">
+                </div>
+                <div class="work__text">
+                    <h4>Project 2</h4>
+                </div>
+            </div>
+            <div class="work__card rest">
+                <div class="work__img">
+                    <img class="portfolio__img" src="img/rest.svg" alt="#">
+                </div>
+                <div class="work__text">
+                    <h4>Project 3</h4>
+                </div>
+            </div>
+            <div class="work__card clovery">
+                <div class="work__img">
+                    <img class="portfolio__img" src="img/clovery.svg" alt="#">
+                </div>
+                <div class="work__text">
+                    <h4>Project 4</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>© 2022 Maksym Fadeev</p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
