@@ -88,7 +88,7 @@ h6 {
 
 body {
 	font-family: "Roboto", sans-serif;
-	background: rgba(0, 0, 0, 0.9) url(../img/123.jpg);
+	background: rgba(255, 255, 255, 0.9) url(../img/123.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -247,10 +247,12 @@ section {
 	align-items: center;
 	flex-direction: column;
 }
-.sci-title{
+
+.sci-title {
 	font-size: 18px;
 	padding-right: 16px;
 }
+
 .sci__row {
 	margin-top: 20px;
 	display: flex;
@@ -282,12 +284,15 @@ section {
 .fa-linkedin:hover {
 	color: #0072b1;
 }
+
 .fa-google:hover {
 	color: #db4a39;
 }
+
 .fa-telegram:hover {
-	color: #0088cc ;
+	color: #0088cc;
 }
+
 .title {
 	width: 100%;
 	text-align: center;
@@ -546,6 +551,10 @@ section {
 
 
 @media(max-width:991px) {
+	body {
+		background-size: cover;
+	}
+
 	section {
 		padding: 40px;
 	}
