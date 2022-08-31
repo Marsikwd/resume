@@ -33,9 +33,9 @@ linkRest.addEventListener('click', function (e) {
 	window.open('https://marsikwd.github.io/Restoran/');
 })
 
-let linkMarcy = document.querySelector('.Marcy');
+let linkMarcy = document.querySelector('.marcy');
 
 linkMarcy.addEventListener('click', function (e) {
 	e.preventDefault();
-	window.open('https://marsikwd.github.io/Mercy/');
+	window.open('https://marsikwd.github.io/Mercy/')
 })
