@@ -37,5 +37,5 @@ let linkMarcy = document.querySelector('.marcy');
 
 linkMarcy.addEventListener('click', function (e) {
 	e.preventDefault();
-	window.open('https://marsikwd.github.io/Mercy/')
+	window.open('https://marsikwd.github.io/Mercy/');
 })
