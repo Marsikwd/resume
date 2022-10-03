@@ -33,9 +33,37 @@ linkRest.addEventListener('click', function (e) {
 	window.open('https://marsikwd.github.io/Restoran/');
 })
 
-let linkMarcy = document.querySelector('.marcy');
+let linkVaw = document.querySelector('.vaw');
 
-linkMarcy.addEventListener('click', function (e) {
+linkVaw.addEventListener('click', function (e) {
 	e.preventDefault();
-	window.open('https://marsikwd.github.io/Mercy/');
+	window.open('https://marsikwd.github.io/');
+})
+
+let linkHalloween = document.querySelector('.halloween');
+
+linkHalloween.addEventListener('click', function (e) {
+	e.preventDefault();
+	window.open('https://marsikwd.github.io/Halloween/');
+})
+
+let linkWhale = document.querySelector('.whale');
+
+linkWhale.addEventListener('click', function (e) {
+	e.preventDefault();
+	window.open('https://marsikwd.github.io/whale/');
+})
+
+let linkVideo = document.querySelector('.bg-video');
+
+linkVideo.addEventListener('click', function (e) {
+	e.preventDefault();
+	window.open('https://marsikwd.github.io/bg-video/');
+})
+
+let linkOstgame = document.querySelector('.OstGame');
+
+linkOstgame.addEventListener('click', function (e) {
+	e.preventDefault();
+	window.open('https://marsikwd.github.io/OstGame/');
 })
