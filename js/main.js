@@ -67,3 +67,10 @@ linkOstgame.addEventListener('click', function (e) {
 	e.preventDefault();
 	window.open('https://marsikwd.github.io/OstGame/');
 })
+
+let GameCv = document.querySelector('.Game-cv');
+
+GameCv.addEventListener('click', function (e) {
+	e.preventDefault();
+	window.open('https://marsikwd.github.io/game-cv/');
+})
