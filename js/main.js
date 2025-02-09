@@ -74,3 +74,10 @@ GameCv.addEventListener('click', function (e) {
 	e.preventDefault();
 	window.open('https://marsikwd.github.io/game-cv/');
 })
+
+let Wreact = document.querySelector('.Whater-react');
+
+Wreact.addEventListener('click', function (e) {
+	e.preventDefault();
+	window.open('https://marsikwd.github.io/weather-react/');
+})
